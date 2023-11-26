@@ -1,0 +1,42 @@
+# Welcome to Jekyll!
+
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+
+title: Eternal Echoes
+email: simonleijon59@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is my personal blog where I write about programming, math,
+  AI, philosophy & anything else I find interesting. Books, subject,
+  methods, concepts will all be reviewed here so stay tuned!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+github_username: sleijon1
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jemoji
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
