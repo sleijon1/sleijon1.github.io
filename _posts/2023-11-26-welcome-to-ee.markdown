@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Eternal Echoes!"
 date:   2023-11-26 14:01:13 +0100
-categories: jekyll update
+categories: miscellaneous
 ---
 This is my first post on this blog. Currently, im trying to figure out exactly how Jekyll works so no groundbreaking content yet. But it does seem to be a pretty awesome static site generator!
 
