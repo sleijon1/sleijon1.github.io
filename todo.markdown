@@ -13,5 +13,6 @@ Keeping track of topics I intend to make posts about:
 1. Programming puzzles & AoC
 1. Tmux/terminal in general
 1. Deploying Python applications on Windows
-1. AI "taking jobs" hype
+1. AI & jobs
 1. Goal setting
+1. Vector databases, function calling, fine tuning, tradeoffs

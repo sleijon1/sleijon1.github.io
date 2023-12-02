@@ -1,24 +1,24 @@
 ---
-layout: post
+layout: post_disc
 title:  "LLMs, Cheeseburgers & Expensive Tea"
-date:   2023-11-27 18:00:00 +0100
+date:   2023-12-02 20:25:00 +0100
 categories: ai
 ---
 
 ## Introduction
 
 I am currently in the process of researching the possibilities & limitations of LLMs and the OpenAI API.
-The purpose is to create a chat bot for a customer with domain-specific knowledge, optimal pricing,
+The purpose is to create a chat bot with domain-specific knowledge, optimal pricing,
 and a tech stack that supports various constraints, some of which are not ironed out yet.
 
 In this post I wish to briefly summarize the important concepts surrounding LLMs. References will be given at the end for a deeper dive into the subject.
 
 
-## LLMs & Addons
+## LLMs, PE & RAG
 
 What is important to understand and what I think can be slightly confusing if you are just starting on your LLM journey is that a lot of what is being done behind the scenes to make a performant chat bot or whatever else you are building with your LLM is not actually the LLM doing work. Now, don't get me wrong the LLM is definetly the workhorse but a lot of the customization & optimization is done by wrapping other "stuff" around the LLM. However, an important part of customization is the fine tuning process which does indeed directly impact the underlying LLM.
 
-Three important concepts to understanding the current LLM space for application development are: [Prompt Engineering](#prompt-engineering), [Retrieval Augmented Generation - RAG](#rag) and [Fine Tuning](#fine-tuning). Ill cover the first two in this post.
+Three important concepts to understanding the current LLM space for application development are: [Prompt Engineering](#prompt-engineering), [Retrieval Augmented Generation - RAG](#retrieval-augmented-generation---rag) and fine tuning. Ill cover the first two in this post.
 
 ### Prompt Engineering
 
@@ -30,7 +30,7 @@ Similar to human communication, if you ask the model a question that is ambiguou
 
 Say I want to find out the weight range of bowling balls (who doesn't want to know that right?), the following chat ensues:
 
->Me: How much does the round things way that have holes in them and can be thrown. Sometimes they are yellow.
+>Me: How much does the round things weigh that have holes in them and can be thrown. Sometimes they are yellow.
 >
 >ChatGPT: It sounds like you're describing a type of sports equipment, specifically a tennis ball. Tennis balls are typically hollow rubber balls with a felt covering, and they are commonly used in the sport of tennis. The weight of a standard tennis ball is around 2 ounces (about 57 grams).
 
@@ -78,12 +78,18 @@ This has some interesting parallels to how us humans think as well, food for tho
 
 ### Retrieval Augmented Generation - RAG
 
-RAG or Retrieval Augmented Generation is a self explanatory term in the sense that we retrieve customised data before polling the model for the generated answer, resulting in an augmented generation. This is a crucial step to enable customisation of the LLM to your specific application. Lets say you are integrating a chat bot into your application web shop that sells high end limited edition coffee and tea. Since the data on your super rare beverage types might not be publicly available there is no way for the LLM to know have data on these beverages. RAG as a method allows you to inject that data into the context of the LLM, augmenting the generation with fresh up-to-date data. This is especially important if your custom data updates regularly. You want the bot to be able to answer questions about your 10 latest exquisite beverages? Keep that data readily available in a data storage, fetch it when a user asks a question and send the question together with the retrieved data into to your LLM and the answer will in most cases be quite good. The concerned reader might wonder how will I know what to retrieve from my database? And what about if I have 5TB of coffe & tea data that I want to query from? To settle these concerns we have to shortly discuss the phenomena rising in popularity with the recent LLM boom: vector embeddings and vector search.
+RAG or Retrieval Augmented Generation is a self explanatory term in the sense that we retrieve customised data before polling the model for the generated answer, resulting in an augmented generation. This is a crucial step to enable customisation of the LLM to your specific application.
+
+Lets say you are integrating a chat bot into your application web shop that sells high end limited edition coffee and tea. Since the data on your super rare beverage types might not be publicly available there is no way for the LLM to know have data on these beverages. RAG as a method allows you to inject that data into the context of the LLM, augmenting the generation with fresh up-to-date data. This is especially important if your custom data updates regularly. You want the bot to be able to answer questions about your 10 latest exquisite beverages? Keep that data readily available in a data storage, fetch it when a user asks a question and send the question together with the retrieved data into to your LLM and the answer will in most cases be quite good.
+
+The concerned reader might wonder how I will know what to retrieve from my database? And what about if I have 5TB of coffe & tea data that I want to query from? To settle these concerns we have to shortly discuss the phenomena rising in popularity with the recent LLM boom: vector embeddings and vector search.
 
 
 #### Vector Embeddings/Search
 
-I wont dive into the details of this topic in this post but the basic idea is: lets convert our documents (customised data) into a vector format and store them as vectors in our data storage. This allow us to use measures such as [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) to measure the distance between documents. So the idea is: store our documents as vector embeddings, convert incoming prompt to a vector (using the same embedding process!) and look for the most _n_ most similar documents and add them to the context being sent to the LLM. Using this data format and distance measure we can make fast comparisons between documents and find the most similar documents using techniques such as nearest neighbor. How data is retrieved and how quicly it is retrieved can also be optimized by using indices, which is a discussion for another day. Summarizing, vector embeddings solves the problems of quickly finding similar documents in our custom data storage to augment the LLM generation. 
+Without diving into the details of this topic the basic idea is this: convert our documents (customised data) into a vector format and store them as vectors in our data storage. This allows us to use measures such as [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) to calculate the distance between documents. The utilization of RAG & vector search in your application will look something like: store our documents as vector embeddings, convert incoming prompt to a vector (using the same embedding process!), look for the most _n_ most similar documents and add them to the context being sent to the LLM. Using this data format and distance measure we can make fast comparisons between documents and find the most similar documents using techniques such as nearest neighbor.
+
+How data is retrieved and how quickly it is retrieved can also be optimized by using indices, which is also a discussion for another day :wink: In summary, vector embeddings solves the problems of quickly finding similar documents in our custom data storage to augment the LLM generation.
 
 #### _Bonus_: Stay humble Mr(s). LLM
 
@@ -91,16 +97,19 @@ An interesting trick covered in this [OpenAI tutorial](https://platform.openai.c
 
 ## Future Topics
 
-There is a lot to say on this subject such as theory behind LLMs, OpenAI, function calling, fine tuning and last but not least the actual implementations of these concepts. Any of which I might cover in the future! So stay tuned.
+There is a lot to say on this subject such as theory behind LLMs, OpenAI, function calling, fine tuning and last but not least the actual implementations of these concepts. Any of which I might cover in the future! So stay tuned and thanks for reading if you got this far.
 
 ## References
 
-TODO 
-Add references
-Add disclaimer
-that is added to every post
-that anyone can email me about
-errrors in posts and I will revice
+Some of the references have been used in writing this post while others are left here for further study.
 
-also a list of credits to people who have
-contributed error fixes
+[1] [https://www.youtube.com/watch?app=desktop&v=ahnGLM-RC1Y]() - Maximizing LLM Performance 
+
+[2] [https://platform.openai.com/docs/tutorials/web-qa-embeddings]() - RAG(ish) tutorial
+
+[3] [https://platform.openai.com/docs/guides/prompt-engineering]()
+
+[4] [https://www.youtube.com/watch?v=zjkBMFhNj_g]() - Intro to LLMs
+
+[5] [https://www.youtube.com/watch?v=jkrNMKz9pWU]() Jeremy Howard, Hackers Guide to LLMs
+
