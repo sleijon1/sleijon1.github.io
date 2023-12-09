@@ -16,3 +16,5 @@ Keeping track of topics I intend to make posts about:
 1. AI & jobs
 1. Goal setting
 1. Vector databases, function calling, fine tuning, tradeoffs
+1. Deploying FastAPI/Python on IIS
+1. Azure CI/CD

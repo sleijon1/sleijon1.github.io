@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Eternal Echoes!"
+title:  "Welcome to Finite Eternity!"
 date:   2023-11-26 14:01:13 +0100
 categories: miscellaneous
 ---
