@@ -1,7 +1,7 @@
 ---
 layout: post_disc
 title:  "LLMs, Cheeseburgers & Expensive Tea"
-date:   2023-12-02 20:25:00 +0100
+date:   2023-12-09
 categories: ai
 ---
 
@@ -11,7 +11,7 @@ I am currently in the process of researching the possibilities & limitations of 
 The purpose is to create a chat bot with domain-specific knowledge, optimal pricing,
 and a tech stack that supports various constraints, some of which are not ironed out yet.
 
-In this post I wish to briefly summarize the important concepts surrounding LLMs. References will be given at the end for a deeper dive into the subject.
+In this post I wish to briefly summarize the important practical concepts surrounding LLMs. References will be given at the end for a deeper dive into the subject.
 
 
 ## LLMs, PE & RAG
@@ -26,7 +26,7 @@ Prompt Engineering is the fancy term for being cognisant of how and what prompts
 
 #### Formulating prompts unambiguously
 
-Similar to human communication, if you ask the model a question that is ambiguouos there is a wide range of possible outputs of the model. The possible next word given the context is a large list which can put the LLM down an answer track that is perpendicular to the one you want. To illustrate this lets look at an example:
+Similar to human communication, if you ask the model a question that is ambiguous there is a wide range of possible outputs of the model. The possible next word given the context is a large list which can put the LLM down an answer track that is perpendicular to the one you want. To illustrate this lets look at an example:
 
 Say I want to find out the weight range of bowling balls (who doesn't want to know that right?), the following chat ensues:
 
@@ -87,7 +87,7 @@ The concerned reader might wonder how I will know what to retrieve from my datab
 
 #### Vector Embeddings/Search
 
-Without diving into the details of this topic the basic idea is this: convert our documents (customised data) into a vector format and store them as vectors in our data storage. This allows us to use measures such as [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) to calculate the distance between documents. The utilization of RAG & vector search in your application will look something like: store our documents as vector embeddings, convert incoming prompt to a vector (using the same embedding process!), look for the most _n_ most similar documents and add them to the context being sent to the LLM. Using this data format and distance measure we can make fast comparisons between documents and find the most similar documents using techniques such as nearest neighbor.
+Without diving into the details of this topic the basic idea is this: convert our documents (customised data) into a vector format and store them as vectors in our data storage. This allows us to use measures such as [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) to calculate the distance between documents. The utilization of RAG & vector search in your application will look something like: store the documents as vector embeddings, convert incoming prompt to a vector (using the same embedding process!), look for the most _n_ most similar documents and add them to the context being sent to the LLM. Using this data format and distance measure we can make fast comparisons between documents and find the most similar documents using techniques such as nearest neighbor.
 
 How data is retrieved and how quickly it is retrieved can also be optimized by using indices, which is also a discussion for another day :wink: In summary, vector embeddings solves the problems of quickly finding similar documents in our custom data storage to augment the LLM generation.
 
