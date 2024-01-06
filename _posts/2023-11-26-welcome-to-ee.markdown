@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Finite Eternity!"
+title:  "Welcome to my blog!"
 date:   2023-11-26 14:01:13 +0100
 categories: miscellaneous
 ---
