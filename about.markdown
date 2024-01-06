@@ -9,4 +9,4 @@ Hello im Simon. My humble mission in life is to understand everything. Wish me l
 
 To infinity and beyond :rocket:
 
-![Buzz Lightyear](/assets//buzz.jpg)
+![Buzz Lightyear](/assets//simon.png)
