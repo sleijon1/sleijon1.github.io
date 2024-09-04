@@ -7,9 +7,8 @@
 title: Simon Leijon
 email: simonleijon59@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my personal blog where I write about programming, math,
-  AI, philosophy & anything else I find interesting. Books, subject,
-  methods, concepts will all be reviewed here so stay tuned!
+  Simon Leijon's personal website and blog. The blog covers software development, data science, and 
+  really anything and everything that interests him.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
