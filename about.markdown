@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi im Simon. Some quick facts about me:
+Hi im Simon and this is my blog Circular. Some quick facts about me:
 
 -   I have a masters in computer and information engineering 📖
 -   I work in IT, programming, DevOps'ing, finding solutions 🛠️

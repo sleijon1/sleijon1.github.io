@@ -4,11 +4,13 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: Simon Leijon
+title: Circular
 email: simonleijon59@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Simon Leijon's personal website and blog. The blog covers software development, data science, and 
-  really anything and everything that interests him.
+  Circular is a personal website and blog. The blog covers software development, data science, and 
+  really anything and everything that interests the author. Posts are not meant to be comprehensive or 
+  complete but rather a short exploration of a topic. The website is built using Jekyll and hosted on
+  GitHub Pages. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb

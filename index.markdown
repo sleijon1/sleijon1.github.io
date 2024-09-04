@@ -6,4 +6,4 @@ layout: home
 title: Home
 ---
 
-Hello and welcome to my personal blog. My name is Simon Leijon. Below are some posts I have made on various topics. I make these posts for note keeping, knowledge spreading & to showcase some of my interests. Hopefully you can find something worthwile down below :arrow_down:
+Below are some posts I have made on various topics. I make these posts mostly for note keeping, memory reconsolidation, exploration & sharing some of my interests.
