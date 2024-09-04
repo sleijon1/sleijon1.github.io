@@ -1,0 +1,40 @@
+<footer class="site-footer h-card"  style="vertical-align: top; padding-top: 10px; padding-bottom: 5px">
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  
+    <div class="wrapper">
+  
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+          <ul class="contact-list">
+              {%- if site.email -%}
+              <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+              {%- endif -%}
+          </ul>
+        </div>
+        <div class="footer-col footer-col-2">
+          {%- include social.html -%}
+        </div>
+        <div class="footer-col footer-col-3">
+          <p>{{- site.description | escape -}}</p>
+        </div>
+      </div>
+  
+    </div>
+  
+    <script>
+  
+      const iconDark = document.getElementById('icon-dark');
+      const iconLight = document.getElementById('icon-light');
+      const darkModeButton = document.getElementsByClassName('dark-mode-button')[0]
+      const darkModePreferred = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)
+  
+      window.onload = function() {
+        checkDarkMode()
+      }
+  
+      darkModeButton.onclick = function() {
+        toggleDarkMode()
+      }
+  
+    </script>
+  </footer>
