@@ -18,4 +18,4 @@ Hi im Simon and this is my blog Circular. Some quick facts about me:
 
 Hopefully, you'll find something of interest on here! 🙂
 
-![Buzz Lightyear](/assets//simonstherom.jpg)
+![Simons Last Theorem](/assets/simonstherom.jpg)
