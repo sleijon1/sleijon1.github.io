@@ -12,20 +12,4 @@
     {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
     {%- endif -%}
-    <script>
-
-        const iconDark = document.getElementById('icon-dark');
-        const iconLight = document.getElementById('icon-light');
-        const darkModeButton = document.getElementsByClassName('dark-mode-button')[0]
-        const darkModePreferred = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)
-    
-        window.onload = function() {
-          checkDarkMode()
-        }
-    
-        darkModeButton.onclick = function() {
-          toggleDarkMode()
-        }
-    
-      </script>
 </head>
