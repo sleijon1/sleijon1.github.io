@@ -17,5 +17,3 @@ Hi im Simon and this is my blog Circular. Some quick facts about me:
 -   😅 According to Swedish life expectancy im about 1/3 out of time as of 2024
 
 Hopefully, you'll find something of interest on here! 🙂
-
-![Simons Last Theorem](/assets/simonstheorem.jpg)
