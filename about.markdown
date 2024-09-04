@@ -7,7 +7,7 @@ permalink: /about/
 Hi im Simon and this is my blog Circular. Some quick facts about me:
 
 -   📖 I have a masters in computer and information engineering
--   🛠️ I work in IT, programming, DevOps'ing, finding solutions
+-   🛠️ I work in IT, programming, DevOps-ing, finding solutions
 -   🧩 I love puzzles and challenges
 -   ⚔️ Gladiator is my favorite movie because its the story of a man who refuses to give up his values
     no matter what atrocities face him
