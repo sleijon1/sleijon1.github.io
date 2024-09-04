@@ -22,3 +22,4 @@ For future reference I will leave the template links here since they might come 
 -   [jekyll-docs](https://jekyllrb.com/docs/home)
 -   [jekyll-gh](https://github.com/jekyll/jekyll)
 -   [jekyll-talk](https://talk.jekyllrb.com/)
+-   [minima theme](https://github.com/jekyll/minima/tree/master)

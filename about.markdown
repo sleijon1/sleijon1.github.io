@@ -16,4 +16,4 @@ Hi im Simon and this is my blog Circular. Some quick facts about me:
 -   🐶 I live with my beatiful girlfriend, a crazy dog and a fluffy cat
 -   😅 According to Swedish life expectancy im about 1/3 out of time as of 2024
 
-Hopefully, you'll find something of interest on here! 🙂
+Hopefully, you'll find something of interest on here!
