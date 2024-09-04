@@ -24,6 +24,7 @@ minima:
   social_links:
     - { platform: github,  user_url: "https://github.com/sleijon1" }
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/simon-leijon-402897133/" }
+show_excerpts: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

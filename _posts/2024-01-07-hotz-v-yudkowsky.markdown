@@ -1,12 +1,11 @@
 ---
 layout: post_disc
-title:  "Hotz vs. Yudkowsky AI Safety"
-date:   2024-01-07
+title: "Hotz vs. Yudkowsky AI Safety"
+date: 2024-01-07
 categories: ai
 ---
-# Introduction
 
-I watched the [George Hotz vs Eliezer Yudkowsky AI Safety Debate](https://www.youtube.com/watch?v=6yQEA18C-XI) debate and drew my own conclusions regarding AI safety from the PoV of the debate. The conclusions are not elaborated on and will  most likely be slightly confusing unless you watch the debate so I suggest you do so.
+I watched the [George Hotz vs Eliezer Yudkowsky AI Safety Debate](https://www.youtube.com/watch?v=6yQEA18C-XI) debate and drew my own conclusions regarding AI safety from the PoV of the debate. The conclusions are not elaborated on and will most likely be slightly confusing unless you watch the debate so I suggest you do so.
 
 # Conclusion
 
@@ -17,9 +16,10 @@ To elaborate on AI's not caring I believe that the reason humans set goals is to
 In conclusion I believe reaching super intelligence won't happen over night, we are at least some years until we get there and even when we get there the super intelligence won't cooperatively decide to eliminate us because of the unsolvability of prisoners dilemma and they wont generate their own goals to take over or expand unless given the goal to simulate an I that produces its own moral system to generate oughts. The threat is humans using super intelligence.
 
 Important concepts:
-- [Prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma)
-- [Landaur's principle](https://en.wikipedia.org/wiki/Landauer%27s_principle) - Theoretical lower limit of energy consumption of computation
-- [Loss function of life](https://en.wikipedia.org/wiki/Inclusive_fitness)
-- [Pareto front](https://en.wikipedia.org/wiki/Pareto_front) - Set of all pareto optimal solutions
-- [Orthogonality Thesis](https://www.youtube.com/watch?v=hEUO6pjwFOo)
-- [Negentropy](https://en.wikipedia.org/wiki/Negentropy)
+
+-   [Prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma)
+-   [Landaur's principle](https://en.wikipedia.org/wiki/Landauer%27s_principle) - Theoretical lower limit of energy consumption of computation
+-   [Loss function of life](https://en.wikipedia.org/wiki/Inclusive_fitness)
+-   [Pareto front](https://en.wikipedia.org/wiki/Pareto_front) - Set of all pareto optimal solutions
+-   [Orthogonality Thesis](https://www.youtube.com/watch?v=hEUO6pjwFOo)
+-   [Negentropy](https://en.wikipedia.org/wiki/Negentropy)
