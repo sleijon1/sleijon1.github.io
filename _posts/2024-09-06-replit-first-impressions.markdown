@@ -2,6 +2,7 @@
 layout: post
 title: "Replit First Impressions"
 date: 2024-09-06
+categories: AI
 ---
 
 Replit, formerly Repl.it, is an American start-up and an online integrated development environment. Replit allows users to create online programming projects called repls.
