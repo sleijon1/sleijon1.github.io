@@ -2,7 +2,6 @@
 layout: post_disc
 title: "LLMs, Cheeseburgers & Expensive Tea"
 date: 2023-12-09
-categories: ai
 ---
 
 I am currently in the process of researching the possibilities & limitations of LLMs and the OpenAI API.

@@ -2,7 +2,6 @@
 layout: post_disc
 title: "Hotz vs. Yudkowsky AI Safety"
 date: 2024-01-07
-categories: ai
 ---
 
 I watched the [George Hotz vs Eliezer Yudkowsky AI Safety Debate](https://www.youtube.com/watch?v=6yQEA18C-XI) debate and drew my own conclusions regarding AI safety from the PoV of the debate. The conclusions are not elaborated on and will most likely be slightly confusing unless you watch the debate so I suggest you do so.
