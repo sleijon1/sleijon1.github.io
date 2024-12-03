@@ -1,0 +1,18 @@
+---
+layout: post
+title: ""
+date: 2024-12-03
+categories: Philosophy
+---
+
+# Jailbreaking the simulation
+
+I really enjoy listening to George Hotz because of the uniqueness of his opinions and the similarities in thought process that we share. He had a great talk titled [Jailbreaking the simulation](https://www.youtube.com/watch?v=ESXOAJRdcwQ&list=LL&index=1) with the title being self explanatory. I will share some of my thoughts on it below.
+
+# My thoughts
+
+I absolutely agree that atheism often is treated as a religion and that the Big Bang is used as a stopper argument for further questioning, what created the big bang? My big contention however is with the idea that we might have reached a critical level of self awareness such that we can become aware of the process that created our simulation. I also percieve George to be leaning towards that upper process being very much like ours which seems unlikely. Much like George I believe the key to jailbreaking the life simulation is through awareness but I do not believe that that world above is something similar to this world and that we can peek into it through some sort of jailbreaking means. I believe that the mind is limited to the 3-dimensional world in that all that the mind concerns itself with are either past events in 3D or future possibilities in 3D. But it is all based on experiences in the 3-dimensional world. Those experiences are percieved by our senses: vision, hearing, taste, touch, smell etc. This is why when we consider something much more complex or more intelligent than us its like the alien depictions of old movies: big eyes, big heads, slightly smaller (maybe more energy efficient bodies?), its essentially us with very unimaginative alterations. The point of something more complex than us is that we simply cannot imagine it: and what has created us must be much more complex than us or at least a little bit more complex than us but either way we wouldnt be able to reason about that creator until we gained a level of intelligence equal to that creator. That seems to be impossible to me. You couldn't create something as intelligent as yourself without that thing becoming you. So understanding what is above our process no matter what you think that is necessarily requires you to jailbreak yourself out of your faculties that chain you to the 3-dimensional world. How one does that is a question for another day and one I do not have an answer to, jet ;). But I will end on this: the idea of consciousness as a fundamental unit that the brain is a tool to pick up on. If this idea is true that means the way to jailbreak the simulation is becoming better at using your brain for maximizing consciousness/awareness to be less shackled by the 3-dimensional world. Whether you get better at that through meditation, introspection, psychadelics or logical reasoning matters not. George seems to understand consciousness as originating from the brain and not from outside and as such the logical conclusion is that any other means of increasing consciousness is not actually increasing consciousness but rather putting on a different program in your brain. The logical conclusion being correct I am less sure about the premise.
+
+The talk is 5 years old but happened to pop up in my feed so leave room for changed minds and always leave room for misinterpretations on my end as well as yours ;). I would love to talk to George about topics like these in the future to understand his beliefs more or simply grapple with the ideas further for our own increased knowledge. Appreciate the passion and eagerness to share his view.
+
+Til next time :wave:
