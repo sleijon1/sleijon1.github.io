@@ -5,8 +5,6 @@ date: 2024-12-03
 categories: Philosophy
 ---
 
-# Jailbreaking the simulation
-
 I really enjoy listening to George Hotz because of the uniqueness of his opinions and the similarities in thought process that we share. He had a great talk titled [Jailbreaking the simulation](https://www.youtube.com/watch?v=ESXOAJRdcwQ&list=LL&index=1) with the title being self explanatory. I will share some of my thoughts on it below.
 
 # My thoughts
