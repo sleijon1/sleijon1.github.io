@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""
+title: "Jailbreaking the simulation"
 date: 2024-12-03
 categories: Philosophy
 ---
